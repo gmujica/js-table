@@ -6,7 +6,7 @@ window.addEventListener('DOMContentLoaded', () => {
       var ctr = 1;
       item.className = item.className !== 'show' ? 'show' : 'hide';
       if (item.className === 'show') {
-        item.style.display = 'block';
+        item.style.display = 'grid';
         window.setTimeout(function(){
           item.style.opacity = 1;
           item.style.transform = 'scale(1)';

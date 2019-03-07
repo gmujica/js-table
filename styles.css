@@ -33,7 +33,6 @@
 	cursor: pointer;
 	color: #1072aa;
     font-size: 1vw;
-    transition: .5s ease opacity,.5s ease transform;
 }
 /*.partners-list > div > .item { 
     opacity: 0;
@@ -46,7 +45,8 @@
 	border-radius: 4px;
 	grid-column-gap: 6%;
 	padding: 1.5vh 2vw 1.5vh 2vw;
-	margin-bottom: 1vh;
+    margin-bottom: 1vh;
+    transition: .5s ease opacity,.5s ease transform;
 }
 /**/
 .container button {
