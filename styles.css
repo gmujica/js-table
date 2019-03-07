@@ -32,8 +32,14 @@
 	border: 1px solid #999999;
 	cursor: pointer;
 	color: #1072aa;
-	font-size: 1vw;
+    font-size: 1vw;
+    transition: .5s ease opacity,.5s ease transform;
 }
+/*.partners-list > div > .item { 
+    opacity: 0;
+    transform: scale(0);
+    transition: .6s ease opacity,.6s ease transform;
+}*/
 .partners-list > div {
 	display: grid;
 	grid-template-columns: 1fr 2.8fr 1.5fr;
@@ -62,3 +68,9 @@
     border: 1px solid#5d8ffc;
     cursor: pointer;
 }
+
+/*.item {
+    opacity: 0;
+    transform: scale(0);
+    transition: .6s ease opacity,.6s ease transform;
+}*/
